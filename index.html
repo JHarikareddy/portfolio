@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jakkam Harika Reddy | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">Harika</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h1 class="reveal">Jakkam Harika Reddy</h1>
+    <h3 class="reveal delay">Computer Science Engineer</h3>
+    <p class="reveal delay2">
+      Final-year Computer Science student with strong programming fundamentals
+      and backend-focused full stack exposure.
+    </p>
+    <a href="https://drive.google.com/file/d/18tKceLJ--HQ2TTzgMgLhZfe2irxF5lbb/view?usp=drive_link" download class="btn">Download Resume</a>
+
+    <div class="facts">
+      <span>Java</span>
+      <span>Full Stack Developer</span>
+      <span>Web Development</span>
+    </div>
+  </div>
+
+  <div class="hero-img">
+    <img src="profile.jpeg" alt="Profile Photo">
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>About</h2>
+  <p>
+    Final-year Computer Science and Engineering student with exposure to Java,
+    web technologies, and backend development. Interested in applying skills
+    in a professional environment and learning emerging technologies.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section light">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div>Java</div>
+    <div>HTML</div>
+    <div>CSS</div>
+    <div>JavaScript</div>
+    <div>Node.js</div>
+    <div>Express.js</div>
+    <div>React.js (Basics)</div>
+    <div>SQL</div>
+    <div>MongoDB (Basics)</div>
+    <div>GitHub</div>
+    <div>VS Code</div>
+    <div>ServiceNow Studio</div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+  <h2>Internship Experience</h2>
+  <div class="card">
+    <h3>Full Stack Intern (Backend-Focused)</h3>
+    <p><strong>SmartBridge Educational Services Pvt. Ltd.</strong></p>
+    <p>May 2025 – Jul 2025</p>
+    <ul>
+      <li>Built backend APIs using Node.js and Express.js</li>
+      <li>Implemented authentication and role-based access control</li>
+      <li>Worked with MongoDB for data management</li>
+    </ul>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section light">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>Complaint Repository</h3>
+    <p>
+      Developed backend logic for complaint handling and role-based access.
+      Integrated APIs with database operations and gained exposure to React basics.
+    </p>
+    <span>Node.js • Express.js • MongoDB • React.js</span>
+  </div>
+
+  <div class="card">
+    <h3>Hostel Website</h3>
+    <p>
+      Designed a responsive hostel information website compatible
+      across multiple devices.
+    </p>
+    <span>HTML • CSS • JavaScript</span>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="g1.jpeg" onclick="openLightbox(this.src)">
+    <img src="g2.jpeg" onclick="openLightbox(this.src)">
+    <img src="g3.jpeg" onclick="openLightbox(this.src)">
+  </div>
+</section>
+
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img">
+</div>
+
+<!-- CONTACT -->
+<section id="contact" class="section light">
+  <h2>Contact</h2>
+  <p>Email: <strong>harikareddyjakkam@gmail.com</strong></p>
+  <p>Phone: <strong>+91 9381719204</strong></p>
+  <p>
+    <a href="#">LinkedIn</a> |
+    <a href="#">GitHub</a>
+  </p>
+</section>
+
+<footer>
+  © 2026 Jakkam Harika Reddy
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
